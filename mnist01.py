@@ -33,3 +33,10 @@ from keras.layers import Conv2D, MaxPooling2D
 //backend module : one of TensorFlow, Theano, CNTK
 from keras import backend as K
 
+//batch_size : number of test samples
+batch_size = 128
+//num_classes : not sure
+num_classes = 10
+//epochs : one pass of the full training set
+epochs = 2
+
